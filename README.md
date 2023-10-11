@@ -11,6 +11,7 @@
 Scuber, our transportation company, has gained some traction among moms and dads
 in New York City. It has also received a few requests.
 
+
 First, Scuber's executives want to ensure that Scuber's headquarters is near its
 customers. They would like you to write a function, `distanceFromHqInBlocks`,
 that takes in a pickup location for a passenger, and returns the _number of
@@ -26,7 +27,7 @@ Next, customers want Scuber to calculate the number of feet travelled based on
 the distance. Write a function called `distanceTravelledInFeet` that takes in
 both the start and destination blocks, and returns the number of feet travelled.
 Remember, each block in Manhattan is 264 feet long. For example
-`distanceTravelledInFeet(34, 38)` representing 34th St to 38th St, returns 1056
+` (34, 38)` representing 34th St to 38th St, returns 1056
 (`(38-34)*264`).
 You can assume that we are only calculating distance uptown/downtown, not from
 river to river.
